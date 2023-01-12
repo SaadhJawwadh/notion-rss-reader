@@ -3,7 +3,7 @@ name: Feed Cron
 # run every 30 minutes
 on:
   schedule:
-    - cron: "*/45* * * *" # UTC
+    - cron: "*/45 * * * *" # UTC
   workflow_dispatch:
 
 jobs:
